@@ -25,13 +25,13 @@ public:
     /**
      * \brief Constructeur par defaut
      */
-    MonteCarlo();
+    MonteCarlo(bool parallel);
     
     /**
      * \brief Constructeur à partir d'un fichier
      * @param P  parseur d'extraction des données dans un fichier
      */
-    MonteCarlo(Param *P);
+    MonteCarlo(Param *P, bool parallel);
     
     /**
      * \brief Destructeur
